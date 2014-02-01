@@ -53,3 +53,174 @@
 	width: 858px;
 	margin: auto;
 }
+
+/*<WEBFORM CSS>*/
+
+/*GENERAL TAGS*/
+
+/*trying to figure out how i can get rid of whitespace.. possible solution... */
+/*fieldset[id*="outerfield"] {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}*/
+
+.field-item.even {
+	padding-bottom: 20px;
+}
+
+.form-item.webform-component-textfield {
+	padding-top: 15px;
+	/*padding-bottom: 15px;*/
+}
+
+.webform-component-fieldset.panel.panel-default.form-wrapper {
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+
+.form-item.webform-component.webform-component-select {
+	padding-top: 20px;
+}
+
+.form-item.webform-component.webform-component-date {
+	padding-top: 20px;
+}
+
+.form-item.webform-component.webform-component-number {
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+.form-item.webform-component.webform-component-radios {
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+.file-icon {
+	display: none;
+}
+
+.form-managed-file.input-group {
+	width: 45%;
+}
+
+.input-group-btn {
+	float: auto;
+}
+
+/*FORM-SPECIFIC*/
+
+
+input[id*="edit-submitted-personal-information-name"] {
+	width: 45%;
+}
+
+input[id*="edit-submitted-personal-information-e-mail"] {
+	width: 36.5%;
+	height: 34px;
+	border-radius: 5px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #C0C0C0;
+}
+
+
+.form-item.webform-component.webform-component-email {
+	padding-top: 20px;
+}
+
+
+input[id*="edit-submitted-personal-information-primary-phone"] {
+	width: 25%;
+}
+
+input[id*="-submitted-personal-information-work-phone-number"] {
+	width: 25%;
+}
+
+input[id*="-submitted-personal-information-cellular-number"] {
+	width: 25%;
+}
+
+
+input[id*="-submitted-personal-information-mailing-address-address-line-1"] {
+	width: 50%;
+}
+
+input[id*="-submitted-personal-information-mailing-address-address-line-2"] {
+	width: 50%;
+}
+
+input[id*="-submitted-personal-information-mailing-address-city"] {
+	width: 20%;
+}
+
+input[id*="-submitted-personal-information-mailing-address-country"] {
+	width: 25%;
+}
+
+input[id*="-submitted-personal-information-mailing-address-state-province"] {
+	width: 25%;
+}
+
+input[id*="-submitted-personal-information-mailing-address-zip-postal-code"] {
+	width: 15%;
+}
+
+
+/*permanent address*/
+
+input[id*="edit-submitted-personal-information-permanent-address-address-line-1"] {
+	width: 50%;
+}
+
+input[id*="edit-submitted-personal-information-permanent-address-address-line-2"] {
+	width: 50%;
+}
+
+input[id*="edit-submitted-personal-information-permanent-address-city"] {
+	width: 20%;
+}
+
+input[id*="edit-submitted-personal-information-permanent-address-country"] {
+	width: 25%;
+}
+
+input[id*="edit-submitted-personal-information-permanent-address-state-province"] {
+	width: 25%;
+}
+
+input[id*="edit-submitted-personal-information-permanent-address-zip-postal-code"] {
+	width: 15%;
+}
+
+select[id*="edit-submitted-employment-questions-question1"] {
+	width: 11%;
+}
+
+/*employment questions*/
+
+#edit-submitted-employment-questions-minimum-salary-expected-monthly {
+	height: 34px;
+	border-radius: 5px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #C0C0C0;
+}
+
+select[id*="edit-submitted-employment-questions-question3"] {
+	width: 11%;
+}
+
+select[id*="edit-submitted-employment-questions-question4"] {
+	width: 11%;
+}
+
+/*attachments*/
+
+.form-item.webform-component.webform-component-managed_file {
+	padding-top: 20px;
+}
+
+/*</WEBFORM CSS>*/
