@@ -78,7 +78,7 @@
           <strong>Software Engineering</strong></a>
         </div>
         <div class="col-md-4">
-          <a href="art-direction"><img src="<?php print $directory; ?>/img/dept03.png">>
+          <a href="art-direction"><img src="<?php print $directory; ?>/img/dept03.png">
           <strong>Design/Art Direction</strong></a>
         </div>
         <div class="col-md-4">
