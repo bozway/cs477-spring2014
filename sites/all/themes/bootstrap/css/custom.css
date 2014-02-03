@@ -92,6 +92,7 @@ body {
 	width: 858px;
 	margin: auto;
 }
+<<<<<<< HEAD
 #dept-section .row {
 	margin-bottom: 35px;
 }
@@ -99,6 +100,8 @@ body {
 	display: block;
 	color:#251a0a;
 }
+=======
+>>>>>>> 07fc3dc432a16b2b36222cb0c0055da56bff4035
 
 
 /*<WEBFORM CSS>*/
@@ -156,11 +159,14 @@ body {
 	float: auto;
 }
 
+<<<<<<< HEAD
 /*Login form*/
 #user-login {
 	width: 30%;
 }
 
+=======
+>>>>>>> 07fc3dc432a16b2b36222cb0c0055da56bff4035
 /*FORM-SPECIFIC*/
 
 
@@ -275,5 +281,9 @@ select[id*="edit-submitted-employment-questions-question4"] {
 	padding-top: 20px;
 }
 
+<<<<<<< HEAD
 /*</WEBFORM CSS>*/
 >>>>>>> nayeon-frontend
+=======
+/*</WEBFORM CSS>*/
+>>>>>>> 07fc3dc432a16b2b36222cb0c0055da56bff4035
