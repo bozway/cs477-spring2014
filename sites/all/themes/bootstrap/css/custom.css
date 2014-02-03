@@ -1,37 +1,76 @@
-/* Top navigation */
-#navbar .navbar-collapse {
-	border-bottom: 2px solid #3A5591;
+a {
+	
 }
+body {
+	background-color: #ececeb;
+}
+/* Top navigation */
+.navbar-header {
+	padding: 10px 45px;
+}
+#navbar .navbar-collapse {
+	background-color: #251a0a;
+}
+#navbar .container {
+	background-color: #251a0a;
+}
+/* Navbar stuff for subpages */
+.navbar-default {
+	background-color: transparent;
+	border: 0px;
+	padding: 0;
+	margin-top: 0;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #fdb709;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: #fdb709;
+	text-decoration: underline;
 
+}
+.navbar .container {
+	margin-top: 0px !important;
+}
+.navbar-nav>li>a {
+	padding-top:44px;
+	color: #fdb709;
+}
+.navbar-nav>li>a:hover {
+	background-color: #251a0a;
+	text-decoration: underline;
+}
 /* Unique for home page */
 #video-section {
-	background-color: #ececeb;
 	width: 1140px;
-	height:400px;
-	position: relative;
+	padding-left: 60px;
+	padding-right: 60px;
+	margin-top: 40px;
 }
-#play-btn {
-	background: url("../images/play-button-big.png") no-repeat;
-	width: 124px;
-	height: 124px;
-	position: absolute;
-	left: 500px;
-	top: 130px;
+#video-section img {
+	width: 100%;
+	height: auto;
+	float: none;
 }
-#view-btn {
+#video-section #pulldown {
+	background-color: #211709;
+	color: #fdb709;
+	text-align: center;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+#video-section #pulldown a {
+	color: #fdb709;
 	display: block;
-	border: 1px solid black;
-	background-color: white;
-	width: 170px;
-	height: 40px;
-	text-decoration: none;
-	position: absolute;
-	bottom: 50px;
-	left:30px;
-	padding: 10px;
+	font-size: 14px;	
 }
+#video-section #pulldown a:hover {
+	background-color: black;
+	text-decoration: none;
+}
+
 .content-section {
-	padding:38px 70px;
+	padding:38px 70px 0px 70px;
 }
 .content-section .content {
 	padding:0px 20px;
@@ -43,13 +82,198 @@
 	width: 100%;
 }
 #dept-section{
-	padding: 30px 0px 0px 0px;
+	padding: 10px 0px 0px 0px;
 	text-align: center;
 }
 #dept-section img {
-	width: 80%;
+	width: 65%;
 }
 #dept-section-inner {
 	width: 858px;
 	margin: auto;
 }
+#dept-section .row {
+	margin-bottom: 35px;
+}
+#dept-section a, #dept-section strong {
+	display: block;
+	color:#251a0a;
+}
+
+
+/*<WEBFORM CSS>*/
+
+/*GENERAL TAGS*/
+
+/*trying to figure out how i can get rid of whitespace.. possible solution... */
+/*fieldset[id*="outerfield"] {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}*/
+
+.field-item.even {
+	padding-bottom: 20px;
+}
+
+.form-item.webform-component-textfield {
+	padding-top: 15px;
+	/*padding-bottom: 15px;*/
+}
+
+.webform-component-fieldset.panel.panel-default.form-wrapper {
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+
+.form-item.webform-component.webform-component-select {
+	padding-top: 20px;
+}
+
+.form-item.webform-component.webform-component-date {
+	padding-top: 20px;
+}
+
+.form-item.webform-component.webform-component-number {
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+.form-item.webform-component.webform-component-radios {
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+.file-icon {
+	display: none;
+}
+
+.form-managed-file.input-group {
+	width: 45%;
+}
+
+.input-group-btn {
+	float: auto;
+}
+
+/*Login form*/
+#user-login {
+	width: 30%;
+}
+
+/*FORM-SPECIFIC*/
+
+
+input[id*="edit-submitted-personal-information-name"] {
+	width: 45%;
+}
+
+input[id*="edit-submitted-personal-information-e-mail"] {
+	width: 36.5%;
+	height: 34px;
+	border-radius: 5px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #C0C0C0;
+}
+
+
+.form-item.webform-component.webform-component-email {
+	padding-top: 20px;
+}
+
+
+input[id*="edit-submitted-personal-information-primary-phone"] {
+	width: 25%;
+}
+
+input[id*="-submitted-personal-information-work-phone-number"] {
+	width: 25%;
+}
+
+input[id*="-submitted-personal-information-cellular-number"] {
+	width: 25%;
+}
+
+
+input[id*="-submitted-personal-information-mailing-address-address-line-1"] {
+	width: 50%;
+}
+
+input[id*="-submitted-personal-information-mailing-address-address-line-2"] {
+	width: 50%;
+}
+
+input[id*="-submitted-personal-information-mailing-address-city"] {
+	width: 20%;
+}
+
+input[id*="-submitted-personal-information-mailing-address-country"] {
+	width: 25%;
+}
+
+input[id*="-submitted-personal-information-mailing-address-state-province"] {
+	width: 25%;
+}
+
+input[id*="-submitted-personal-information-mailing-address-zip-postal-code"] {
+	width: 15%;
+}
+
+
+/*permanent address*/
+
+input[id*="edit-submitted-personal-information-permanent-address-address-line-1"] {
+	width: 50%;
+}
+
+input[id*="edit-submitted-personal-information-permanent-address-address-line-2"] {
+	width: 50%;
+}
+
+input[id*="edit-submitted-personal-information-permanent-address-city"] {
+	width: 20%;
+}
+
+input[id*="edit-submitted-personal-information-permanent-address-country"] {
+	width: 25%;
+}
+
+input[id*="edit-submitted-personal-information-permanent-address-state-province"] {
+	width: 25%;
+}
+
+input[id*="edit-submitted-personal-information-permanent-address-zip-postal-code"] {
+	width: 15%;
+}
+
+select[id*="edit-submitted-employment-questions-question1"] {
+	width: 11%;
+}
+
+/*employment questions*/
+
+#edit-submitted-employment-questions-minimum-salary-expected-monthly {
+	height: 34px;
+	border-radius: 5px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #C0C0C0;
+}
+
+select[id*="edit-submitted-employment-questions-question3"] {
+	width: 11%;
+}
+
+select[id*="edit-submitted-employment-questions-question4"] {
+	width: 11%;
+}
+
+/*attachments*/
+
+.form-item.webform-component.webform-component-managed_file {
+	padding-top: 20px;
+}
+
+/*</WEBFORM CSS>*/
+>>>>>>> nayeon-frontend
