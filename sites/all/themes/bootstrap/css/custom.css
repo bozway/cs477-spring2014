@@ -1,37 +1,76 @@
-/* Top navigation */
-#navbar .navbar-collapse {
-	border-bottom: 2px solid #3A5591;
+a {
+	
 }
+body {
+	background-color: #ececeb;
+}
+/* Top navigation */
+.navbar-header {
+	padding: 10px 45px;
+}
+#navbar .navbar-collapse {
+	background-color: #251a0a;
+}
+#navbar .container {
+	background-color: #251a0a;
+}
+/* Navbar stuff for subpages */
+.navbar-default {
+	background-color: transparent;
+	border: 0px;
+	padding: 0;
+	margin-top: 0;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #fdb709;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: #fdb709;
+	text-decoration: underline;
 
+}
+.navbar .container {
+	margin-top: 0px !important;
+}
+.navbar-nav>li>a {
+	padding-top:44px;
+	color: #fdb709;
+}
+.navbar-nav>li>a:hover {
+	background-color: #251a0a;
+	text-decoration: underline;
+}
 /* Unique for home page */
 #video-section {
-	background-color: #ececeb;
 	width: 1140px;
-	height:400px;
-	position: relative;
+	padding-left: 60px;
+	padding-right: 60px;
+	margin-top: 40px;
 }
-#play-btn {
-	background: url("../images/play-button-big.png") no-repeat;
-	width: 124px;
-	height: 124px;
-	position: absolute;
-	left: 500px;
-	top: 130px;
+#video-section img {
+	width: 100%;
+	height: auto;
+	float: none;
 }
-#view-btn {
+#video-section #pulldown {
+	background-color: #211709;
+	color: #fdb709;
+	text-align: center;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+#video-section #pulldown a {
+	color: #fdb709;
 	display: block;
-	border: 1px solid black;
-	background-color: white;
-	width: 170px;
-	height: 40px;
-	text-decoration: none;
-	position: absolute;
-	bottom: 50px;
-	left:30px;
-	padding: 10px;
+	font-size: 14px;	
 }
+#video-section #pulldown a:hover {
+	background-color: black;
+	text-decoration: none;
+}
+
 .content-section {
-	padding:38px 70px;
+	padding:38px 70px 0px 70px;
 }
 .content-section .content {
 	padding:0px 20px;
@@ -43,15 +82,22 @@
 	width: 100%;
 }
 #dept-section{
-	padding: 30px 0px 0px 0px;
+	padding: 10px 0px 0px 0px;
 	text-align: center;
 }
 #dept-section img {
-	width: 80%;
+	width: 65%;
 }
 #dept-section-inner {
 	width: 858px;
 	margin: auto;
+}
+#dept-section .row {
+	margin-bottom: 35px;
+}
+#dept-section a, #dept-section strong {
+	display: block;
+	color:#251a0a;
 }
 
 
@@ -108,6 +154,11 @@
 
 .input-group-btn {
 	float: auto;
+}
+
+/*Login form*/
+#user-login {
+	width: 30%;
 }
 
 /*FORM-SPECIFIC*/
