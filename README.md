@@ -1,5 +1,5 @@
 cs477-spring2014
 ================
-Zune Nguyen (tridungn@usc.edu)
-Doreen Hakimi (doreenha@usc.edu)
-
+Zune Nguyen :P (tridungn@usc.edu)
+Doreen Hakimi :P (doreenha@usc.edu)
+Nayeon Kim :P (nykim92@gmail.com)
