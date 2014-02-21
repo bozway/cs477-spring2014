@@ -1,3 +1,3 @@
 cs477-spring2014
 ================
-Readme change for demo
+Zune Nguyen (tridungn@usc.edu)
