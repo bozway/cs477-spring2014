@@ -43,3 +43,7 @@ Template: tonic
 .ninja-forms-field.ninja-forms-req.nameEmail  {
 	width: 300px;
 }
+
+.ninja-forms-field.ninja-forms-req.phone.ninja-forms-mask {
+	width: 150px;
+}
