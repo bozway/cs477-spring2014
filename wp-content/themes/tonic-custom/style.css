@@ -1,0 +1,32 @@
+/*   
+Theme Name: Tonic-Custom
+Description: A Child Theme of Tonic
+Template: tonic
+*/
+@import url(../tonic/style.css);
+
+.basic .jumbotron {
+	padding:70px 50px 30px 50px;
+	margin-top: -35px;
+}
+.basic .jumbotron h1 {
+	visibility: hidden;
+}
+
+.home .info {
+	border-bottom: 5px #794d1c solid;
+	padding-bottom: 30px;
+}
+.home #departments h3{
+	text-align: center;
+}
+.home .department {
+	text-align: center;
+	padding-bottom: 30px;
+}
+.home .department img {
+	width: 50%;
+}
+.open-position a:hover{
+	text-decoration: underline;
+}
