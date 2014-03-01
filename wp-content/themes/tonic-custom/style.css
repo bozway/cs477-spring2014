@@ -32,6 +32,6 @@ Template: tonic
 }
 
 /*webform edits */
-#ninja_forms_field_14 {
-	float: auto;
+.field-wrap.text-wrap {
+	padding-top: 5px;
 }
