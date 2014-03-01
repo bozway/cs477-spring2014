@@ -35,3 +35,7 @@ Template: tonic
 .field-wrap.text-wrap {
 	padding-top: 5px;
 }
+
+.ninja-forms-required-items {
+	padding-bottom: 10px;
+}
