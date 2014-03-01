@@ -39,3 +39,7 @@ Template: tonic
 .ninja-forms-required-items {
 	padding-bottom: 10px;
 }
+
+.ninja-forms-field.ninja-forms-req.nameEmail  {
+	width: 150px;
+}
