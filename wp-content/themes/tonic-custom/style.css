@@ -30,3 +30,8 @@ Template: tonic
 .open-position a:hover{
 	text-decoration: underline;
 }
+
+/*webform edits */
+#ninja_forms_field_14 {
+	width: 100px;
+}
