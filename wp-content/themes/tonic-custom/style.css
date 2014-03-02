@@ -37,7 +37,8 @@ Template: tonic
 }
 
 form {
-	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
 }
 
 .alignnone.size-full {
