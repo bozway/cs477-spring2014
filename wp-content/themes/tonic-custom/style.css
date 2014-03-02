@@ -40,7 +40,7 @@ Template: tonic
 
 .ninja-forms-field.submitButton {
 	margin-left: 0px;
-	background-color: blue;
+	background: blue;
 }
 
 .field-wrap {
