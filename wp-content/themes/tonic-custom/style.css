@@ -66,7 +66,7 @@ Template: tonic
 	width: 70px;
 }
 
-.vfb-fieldset {
+.vfb-fieldset.vfb-fieldset-1.personal-information {
 	color: white;
 	background-color: #330000;
 }
