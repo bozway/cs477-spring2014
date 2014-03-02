@@ -31,31 +31,25 @@ Template: tonic
 	text-decoration: underline;
 }
 
-/*webform edits */
+/*webform tags*/
 
-.ninja-forms-field.lineBreak {
-	margin-top: 30px;
-	margin-bottom: 15px;
-	border-top: 1px solid #ea9c00;
+h1.entry-title {
+	font-size: 2em;
 }
 
-.ninja-forms-field.submitButton {
-	margin-left: 0px;
-	background: #ea9c00;
+.visual-form-builder-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
 }
 
-.field-wrap {
-	padding-top: 5px;
+.vfb-select.vfb-medium.required.yes-no {
+	width: 100px;
 }
 
-.ninja-forms-required-items {
-	padding-bottom: 10px;
-}
-
-.ninja-forms-field.ninja-forms-req.nameEmail  {
-	width: 300px;
-}
-
-.ninja-forms-field.ninja-forms-req.phone.ninja-forms-mask {
-	width: 150px;
+fieldset.vfb-fieldset {
+	/*background-color: #ea9c00;*/
+	border-color: #645443;
+	border-width: 3px;
+	border-radius: 4px;
 }
