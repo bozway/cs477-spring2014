@@ -47,6 +47,7 @@ h1.entry-title {
 
 fieldset.vfb-fieldset {
 	/*background-color: #ea9c00;*/
-	border-color: #3D2914;
+	border-color: #645443;
 	border-width: 3px;
+	border-radius: 4px;
 }
