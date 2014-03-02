@@ -54,6 +54,6 @@ fieldset.vfb-fieldset {
 	border-radius: 4px;
 }
 
-.vfb-submit {
+input.vfb-submit {
 	background-color: #ea9c00;
 }
