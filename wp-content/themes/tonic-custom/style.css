@@ -31,10 +31,6 @@ Template: tonic
 	text-decoration: underline;
 }
 
-fieldset {
-	margin-top: 0px;
-}
-
-form {
-	margin-top: 0px;
+h1.entry-title {
+	font-size: 16px;
 }
