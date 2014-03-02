@@ -41,6 +41,10 @@ h1.entry-title {
 	width: 90%;
 }
 
+.vfb-select.vfb-medium.required.yes-no {
+	width: 100px;
+}
+
 /*fieldset.vfb-fieldset {
 	background-color: #ea9c00;
 }*/
