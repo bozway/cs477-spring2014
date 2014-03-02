@@ -39,3 +39,7 @@ Template: tonic
 form {
 	margin-top: 0px;
 }
+
+.alignnone.size-full {
+	margin-bottom: 0px;
+}
