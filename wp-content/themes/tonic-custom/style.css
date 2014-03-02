@@ -36,5 +36,6 @@ h1.entry-title {
 }
 
 .visual-form-builder-container {
-	width: 40%;
+	margin-top: 0px;
+	width: 90%;
 }
