@@ -33,9 +33,9 @@ Template: tonic
 
 /*webform edits */
 
-.ninja-forms-all-fields-wrap {
-	margin-left: auto;
-	margin-right: auto;
+.ninja-forms-field {
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .field-wrap {
