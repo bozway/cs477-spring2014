@@ -38,6 +38,11 @@ Template: tonic
 	margin-bottom: 15px;
 }
 
+.ninja-forms-field.submitButton {
+	margin-left: 0px;
+	background-color: blue;
+}
+
 .field-wrap {
 	padding-top: 5px;
 }
