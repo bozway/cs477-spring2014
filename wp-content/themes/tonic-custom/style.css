@@ -31,7 +31,7 @@ Template: tonic
 	text-decoration: underline;
 }
 
-/*webform edits */
+/*ninja webform edits */
 
 .ninja-forms-field.lineBreak {
 	margin-top: 30px;
@@ -58,4 +58,10 @@ Template: tonic
 
 .ninja-forms-field.ninja-forms-req.phone.ninja-forms-mask {
 	width: 150px;
+}
+
+/*visual webform edits */
+
+.yes-no {
+	width: 70px;
 }
