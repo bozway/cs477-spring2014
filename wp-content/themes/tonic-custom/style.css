@@ -41,3 +41,7 @@ h1.entry-title {
 	background-color: #ea9c00;
 	width: 90%;
 }
+
+fieldset.vfb-fieldset {
+	background-color: #333000;
+}
