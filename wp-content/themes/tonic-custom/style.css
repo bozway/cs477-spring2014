@@ -30,3 +30,32 @@ Template: tonic
 .open-position a:hover{
 	text-decoration: underline;
 }
+
+/*webform edits */
+
+.ninja-forms-field.lineBreak {
+	margin-top: 30px;
+	margin-bottom: 15px;
+	border-top: 1px solid #ea9c00;
+}
+
+.ninja-forms-field.submitButton {
+	margin-left: 0px;
+	background: #ea9c00;
+}
+
+.field-wrap {
+	padding-top: 5px;
+}
+
+.ninja-forms-required-items {
+	padding-bottom: 10px;
+}
+
+.ninja-forms-field.ninja-forms-req.nameEmail  {
+	width: 300px;
+}
+
+.ninja-forms-field.ninja-forms-req.phone.ninja-forms-mask {
+	width: 150px;
+}
