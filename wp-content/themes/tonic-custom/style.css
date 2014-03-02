@@ -30,18 +30,3 @@ Template: tonic
 .open-position a:hover{
 	text-decoration: underline;
 }
-
-/*vf-forms css*/
-.vfb-fieldset.vfb-fieldset-1.personal-information {
-	margin-top: 0px;
-}
-
-form {
-	margin-top: 0px;
-	padding-top: 0px;
-	background-color: black;
-}
-
-.alignnone.size-full {
-	margin-bottom: 0px;
-}
