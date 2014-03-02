@@ -33,7 +33,7 @@ Template: tonic
 
 /*webform edits */
 
-.ninja-forms-field {
+.ninja-forms-field.lineBreak {
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
