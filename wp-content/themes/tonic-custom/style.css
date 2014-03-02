@@ -62,6 +62,6 @@ Template: tonic
 
 /*visual webform edits */
 
-.yes-no {
+.vfb-select.vfb-medium.required.yes-no{
 	width: 70px;
 }
