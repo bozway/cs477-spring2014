@@ -31,6 +31,8 @@ Template: tonic
 	text-decoration: underline;
 }
 
+/*webform tags*/
+
 h1.entry-title {
 	font-size: 2em;
 }
@@ -50,4 +52,8 @@ fieldset.vfb-fieldset {
 	border-color: #645443;
 	border-width: 3px;
 	border-radius: 4px;
+}
+
+.vfb-submit {
+	background-color: #ea9c00;
 }
