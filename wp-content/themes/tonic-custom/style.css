@@ -36,7 +36,7 @@ Template: tonic
 .ninja-forms-field.lineBreak {
 	margin-top: 30px;
 	margin-bottom: 15px;
-	color: #ea9c00;
+	background: #ea9c00;
 }
 
 .ninja-forms-field.submitButton {
