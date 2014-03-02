@@ -34,3 +34,7 @@ Template: tonic
 h1.entry-title {
 	font-size: 2em;
 }
+
+.visual-form-builder-container {
+	width: 40%;
+}
