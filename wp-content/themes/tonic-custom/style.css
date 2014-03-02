@@ -65,3 +65,8 @@ Template: tonic
 .vfb-select.vfb-medium.required.yes-no{
 	width: 70px;
 }
+
+.vfb-fieldset {
+	color: white;
+	background-color: #330000;
+}
