@@ -43,5 +43,6 @@ h1.entry-title {
 }
 
 fieldset.vfb-fieldset {
-	background-color: #333000;
+	background-color: #330000;
+	color: white;
 }
