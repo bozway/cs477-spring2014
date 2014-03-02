@@ -45,6 +45,8 @@ h1.entry-title {
 	width: 100px;
 }
 
-/*fieldset.vfb-fieldset {
-	background-color: #ea9c00;
-}*/
+fieldset.vfb-fieldset {
+	/*background-color: #ea9c00;*/
+	border-color: #330000;
+	border-width: 2px;
+}
