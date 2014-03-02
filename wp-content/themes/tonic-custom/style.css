@@ -35,3 +35,7 @@ Template: tonic
 .vfb-fieldset.vfb-fieldset-1.personal-information {
 	margin-top: 0px;
 }
+
+form {
+	margin-top: 0px;
+}
