@@ -30,3 +30,7 @@ Template: tonic
 .open-position a:hover{
 	text-decoration: underline;
 }
+
+fieldset {
+	margin-top: 0px;
+}
