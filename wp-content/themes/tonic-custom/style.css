@@ -1,0 +1,55 @@
+/*   
+Theme Name: Tonic-Custom
+Description: A Child Theme of Tonic
+Template: tonic
+*/
+@import url(../tonic/style.css);
+
+.basic .jumbotron {
+	padding:70px 50px 30px 50px;
+	margin-top: -35px;
+}
+.basic .jumbotron h1 {
+	visibility: hidden;
+}
+
+.home .info {
+	border-bottom: 5px #794d1c solid;
+	padding-bottom: 30px;
+}
+.home #departments h3{
+	text-align: center;
+}
+.home .department {
+	text-align: center;
+	padding-bottom: 30px;
+}
+.home .department img {
+	width: 50%;
+}
+.open-position a:hover{
+	text-decoration: underline;
+}
+
+/*webform tags*/
+
+h1.entry-title {
+	font-size: 2em;
+}
+
+.visual-form-builder-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+.vfb-select.vfb-medium.required.yes-no {
+	width: 100px;
+}
+
+fieldset.vfb-fieldset {
+	/*background-color: #ea9c00;*/
+	border-color: #645443;
+	border-width: 3px;
+	border-radius: 4px;
+}
