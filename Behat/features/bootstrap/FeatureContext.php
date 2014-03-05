@@ -28,17 +28,31 @@ class FeatureContext extends BehatContext
     public function __construct(array $parameters)
     {
         // Initialize your context here
+        // $this->useContext('loginContext', new LoginContext());
     }
 
-//
-// Place your definition and hook methods here:
-//
-//    /**
-//     * @Given /^I have done something with "([^"]*)"$/
-//     */
-//    public function iHaveDoneSomethingWith($argument)
-//    {
-//        doSomethingWith($argument);
-//    }
-//
+    /**
+     * @Given /^I am on the "([^"]*)"$/
+     */
+    public function iAmOnThe($arg1)
+    {
+        echo "\n\ntest\n\n";
+        throw new PendingException();
+    }
+
+    /**
+     * @When /^I enter "([^"]*)" credentials$/
+     */
+    public function iEnterCredentials($arg1)
+    {
+        throw new PendingException();
+    }
+
+    /**
+     * @Then /^I should see my account dashboard$/
+     */
+    public function iShouldSeeMyAccountDashboard()
+    {
+        throw new PendingException();
+    }
 }
