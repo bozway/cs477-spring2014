@@ -30,3 +30,26 @@ Template: tonic
 .open-position a:hover{
 	text-decoration: underline;
 }
+
+/*webform tags*/
+
+h1.entry-title {
+	font-size: 2em;
+}
+
+.visual-form-builder-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+.vfb-select.vfb-medium.required.yes-no {
+	width: 100px;
+}
+
+fieldset.vfb-fieldset {
+	/*background-color: #ea9c00;*/
+	border-color: #645443;
+	border-width: 3px;
+	border-radius: 4px;
+}
