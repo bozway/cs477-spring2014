@@ -54,6 +54,6 @@ fieldset.vfb-fieldset {
 	border-radius: 4px;
 }
 
-input #wp-submit {
+#wp-submit {
 	backgoround-color: #794d1c;
 }
