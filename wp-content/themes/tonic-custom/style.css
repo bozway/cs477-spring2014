@@ -53,3 +53,7 @@ fieldset.vfb-fieldset {
 	border-width: 3px;
 	border-radius: 4px;
 }
+
+.hide {
+	display: none;
+}
