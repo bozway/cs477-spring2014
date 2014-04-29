@@ -31,6 +31,8 @@ Template: tonic
 	text-decoration: underline;
 }
 
+
+
 /*webform tags*/
 
 h1.entry-title {
@@ -54,6 +56,8 @@ fieldset.vfb-fieldset {
 	border-radius: 4px;
 }
 
-#wp-submit {
-	backgoround-color: #794d1c;
-}
+/*hide captcha*/
+  input[class*="hideMe"] {
+ 	visibility: hidden;
+  }
+
